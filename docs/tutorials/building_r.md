@@ -8,7 +8,25 @@
 - The environment variables are set in the codespace image and are available
   when the codespace starts.
 
-    ![alt text](../assets/rdev6.png)
+  This is what you see when the codespace starts, the version might differ:
+
+```console
+Welcome to the Containerised R Development Environment v0.1.1
+
+Here you can modify, compile and use R as described in
+the r development guide:
+https://contributor.r-project.org/rdevguide/GetStart.html#building-r
+
+To help you, we have already set the following environment variables:
+
+BUILDDIR = "/workspaces/r-dev-env/build/r-devel"
+TOP_SRCDIR = "/workspaces/r-dev-env/svn/r-devel"
+PATCHDIR = "/workspaces/r-dev-env/patches"
+
+Have fun 😁
+```
+
+  ![alt text](../assets/rdev6.png)
 
 **2) svn checkout**
 
@@ -35,6 +53,29 @@ source code for these packages:
 ```bash
 $TOP_SRCDIR/tools/rsync-recommended
 ```
+
+```console
+receiving incremental file list
+KernSmooth 2.23-22.tar.gz
+MASS 7.3-60.2.tar.gz
+Matrix 1.5-4.1.tar.gz
+boot 1.3-30.tar.gz
+class 7.3-22.tar.gz
+cluster 2.1.6.tar.gz
+codetools 0.2-19.tar.gz
+foreign 0.8-86.tar.gz
+lattice 0.21-5.tar.gz
+mgcv 1.9-1.tar.gz
+nlme 3.1-164.tar.gz
+rpot 7.3-19.tar.gz
+spatial 7.3-17.tar.gz
+survival 3.5-8.tar.gz
+sent 419 bytes received 14,375,482 bytes 4,107,400.29 bytes/sec
+total size  is 14,368,076 speedup is 1.00
+Creating links
+```
+
+The package versions and the size of files might differ from this.
 
 ![alt text](../assets/rdev9.png)
 

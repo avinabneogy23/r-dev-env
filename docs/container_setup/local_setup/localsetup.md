@@ -56,9 +56,22 @@ localsetup](../../assets/rdev13.png)
 will take some time. So till that time you can have coffee :) ![start
 localsetup](../../assets/rdev24.png)
 8. We can also test whether the dev container is working or not by just printing
-the environment variables mentioned in the welcome message on the terminal. And
-there we go!!! We have setup our R Dev Container locally.  ![start
-localsetup](../../assets/rdev25.png)
+the environment variables mentioned in the welcome message on the terminal.
+
+Use the command:
+
+```bash
+echo $BUILDDIR
+```
+
+The output should be the build directory which will be something like:
+
+```console
+/workspaces/r-dev-env/bin/R
+```
+
+And there we go!!! We have setup our R Dev Container locally.
+![startlocalsetup](../../assets/rdev25.png)
 
 9. The container will be closed when you close VSCode. To reopen the container,
    open the `r-dev-env` directory in VSCode.

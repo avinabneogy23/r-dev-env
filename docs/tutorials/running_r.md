@@ -17,4 +17,17 @@ VSCode window.
 3) Click on the `R:(not attached)` link to launch an R terminal. You can then
 send code from the `.R` file to the R terminal by pressing `cmd/ctrl + enter`.
 
-![alt text](../assets/rdev12.png) ![alt text](../assets/rdev5.png)
+![alt text](../assets/rdev12.png)
+
+Use the following command to test if R is running:
+
+```Rconsole
+hist(rnorm(1000))
+```
+
+This command will output a histogram displaying the frequency distribution of
+1000 randomly generated numbers from a standard normal distribution
+(mean=0, sd=1), showing the characteristic bell-shaped curve with most values
+clustered around zero.
+
+![alt text](../assets/rdev5.png)

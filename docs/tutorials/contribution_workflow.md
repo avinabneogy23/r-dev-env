@@ -3,9 +3,34 @@
 - To start working in R we will click on `R:(not attach)` which is in the bottom
   right of the VSCode window. This will open an R terminal for us.
 
-    ![alt text](../assets/rdev11.png)
+  This is what you will see when you open the R terminal:
 
-    ![alt text](../assets/rdev12.png)
+  ```console
+    R version 4.3.2 (2023-10-31) -- "Eye Holes"
+    Copyright (C) 2023 The R Foundation for Statistical Computing
+    Platform: x86_64-pc-linux-gnu (64-bit)
+
+    R is free software and comes with ABSOLUTELY NO WARRANTY.
+    You are welcome to redistribute it under certain conditions.
+    Type 'license()' or 'licence()' for distribution details.
+
+    Natural language support but running in an English locale
+
+    R is a collaborative project with many contributors.
+    Type 'contributors()' for more information and
+    'citation()' on how to cite R or R packages in publications.
+
+    Type 'demo()' for some demos, 'help()' for on-line help, or
+    'help.start()' for an HTML browser interface to help.
+    Type 'q()' to quit R.
+
+    .vsc.attach()
+    > .vsc.attach()
+  ```
+
+  ![alt text](../assets/rdev11.png)
+
+  ![alt text](../assets/rdev12.png)
 
 - We can now run R commands. We will use the `utils::askYesNo()` function as an
   example
